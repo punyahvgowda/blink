@@ -1,0 +1,47 @@
+header{
+    animation-name: blink;
+    text-align: center;
+            margin-top: 10%;
+            font-size: 24px;
+            color:rgb(42, 15, 194);
+            animation: blink 2s infinite; 
+
+}
+ .blink{
+        font-size: 2.5em;  
+          
+        color: rgb(206, 31, 168);  
+        text-align: center;  
+        animation: rachu 1.8s linear infinite;  
+        
+ }
+ @keyframes rachu{
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 0;
+    }
+ }
+ .image{
+    padding: 100px;
+
+    animation: rotate 2s forwards;
+ }
+ @keyframes rotate{
+    0%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+ }
+ img{
+    width: 600px;
+ }
